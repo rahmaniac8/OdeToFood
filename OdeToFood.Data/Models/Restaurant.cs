@@ -14,6 +14,7 @@ namespace OdeToFood.Data.Models
         [Required]       
         public string Name { get; set; }
         
+
         public CuisineType Cuisine { get; set; }
 
     }
